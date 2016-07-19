@@ -1,2 +1,5 @@
 # africastalking-java
-Official AfricasTalking REST API wrapper
+
+Official AfricasTalking Java API Wrapper
+
+
