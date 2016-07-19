@@ -9,6 +9,7 @@
 *.ear
 
 gradle
+.gradle
 gradlew
 gradlew.bat
 
