@@ -25,8 +25,7 @@ dependencies {
     compile 'org.slf4j:slf4j-api:1.7.13'
     compile group: 'org.json', name: 'json', version: '20090211'
 
-    compile 'com.github.AfricasTalkingLtd:africastalking-java:v1.0.0'
-    
+    // compile 'com.github.AfricasTalkingLtd:africastalking-java:v1.0.0'
 
     // 'test.useTestNG()' to your build script.
     testCompile 'junit:junit:3.8.2'
