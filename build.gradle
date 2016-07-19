@@ -9,7 +9,9 @@
 
 // Apply the java plugin to add support for Java
 apply plugin: 'java'
-apply plugin: 'idea'
+apply plugin: 'maven'
+group = 'com.github.AfricasTalkingLtd'
+
 
 repositories {
     // Use 'jcenter' for resolving your dependencies.
@@ -21,9 +23,16 @@ repositories {
 dependencies {
     // The production code uses the SLF4J logging API at compile time
     compile 'org.slf4j:slf4j-api:1.7.13'
-    compile 'com.github.AfricasTalkingLtd:africastalking-java:'
+    compile group: 'org.json', name: 'json', version: '20090211'
+
+    compile 'com.github.AfricasTalkingLtd:africastalking-java:v1.0.0'
     
 
     // 'test.useTestNG()' to your build script.
     testCompile 'junit:junit:3.8.2'
+}
+
+
+configurations.all {
+    resolutionStrategy.cacheChangingModulesFor 0, 'seconds'
 }
