@@ -6,7 +6,7 @@ Official AfricasTalking Java API Wrapper
 
 ### Using gradle
 
-```
+```java
 repositories {
     jcenter()
     maven { url "https://jitpack.io" }
@@ -22,7 +22,7 @@ dependencies {
 
 In your ```build.sbt``` add 
 
-```
+```java
     resolvers += "jitpack" at "https://jitpack.io"
     libraryDependencies += "com.github.AfricasTalkingLtd" % "africastalking-java" % "v1.0.0"
 
@@ -33,7 +33,7 @@ In your ```build.sbt``` add
 
 In your ```pom.xml``` add repository
 
-```
+```java
   <repositories>
     <repository>
         <id>jitpack.io</id>
@@ -45,7 +45,7 @@ In your ```pom.xml``` add repository
 
 Step 2: add dependency
 
-```
+```java
   <dependency>
       <groupId>com.github.AfricasTalkingLtd</groupId>
       <artifactId>africastalking-java</artifactId>
@@ -58,7 +58,7 @@ Step 2: add dependency
 
 In your ```project.clj``` add
 
-```
+```node
     :repositories [["jitpack" "https://jitpack.io"]]
     :dependencies [[com.github.AfricasTalkingLtd/africastalking-java "v1.0.0"]]
 ```
