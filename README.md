@@ -13,7 +13,7 @@ repositories {
 }
 
 dependencies {
-    compile 'com.github.AfricasTalkingLtd:africastalking-java:v1.0.0'
+    compile 'com.github.AfricasTalkingLtd:africastalking-java:v1.0.1'
 }
 ```
 
@@ -24,7 +24,7 @@ In your ```build.sbt``` add
 
 ```java
     resolvers += "jitpack" at "https://jitpack.io"
-    libraryDependencies += "com.github.AfricasTalkingLtd" % "africastalking-java" % "v1.0.0"
+    libraryDependencies += "com.github.AfricasTalkingLtd" % "africastalking-java" % "v1.0.1"
 
 ```
 
@@ -49,7 +49,7 @@ Step 2: add dependency
   <dependency>
       <groupId>com.github.AfricasTalkingLtd</groupId>
       <artifactId>africastalking-java</artifactId>
-      <version>v1.0.0</version>
+      <version>v1.0.1</version>
   </dependency>
 ```
 
@@ -60,6 +60,6 @@ In your ```project.clj``` add
 
 ```node
     :repositories [["jitpack" "https://jitpack.io"]]
-    :dependencies [[com.github.AfricasTalkingLtd/africastalking-java "v1.0.0"]]
+    :dependencies [[com.github.AfricasTalkingLtd/africastalking-java "v1.0.1"]]
 ```
 
